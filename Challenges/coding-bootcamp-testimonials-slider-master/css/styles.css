@@ -1,0 +1,68 @@
+/*  Dark Blue: hsl(240, 38%, 20%)  
+    Grayish Blue: hsl(240, 18%, 77%) */
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    color: hsl(240, 38%, 20%);
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+.bold-text {
+    font-weight: 700;
+}
+.medium-text {
+    font-weight: 500;
+}
+#background-image {
+    position: absolute;
+    z-index:-999;
+    left:0;
+    top:10px;
+    width: 60%;
+}
+.testimonial-image{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.testimonial-container {
+    padding: 1.56em 1.5em;
+    position: relative;
+    z-index: 1;
+}
+.button-container {
+    position: relative;
+    z-index: 2;
+    bottom: 1em;
+}
+button {
+    width: 3.125em;
+    height: 3.125em;
+    margin:0;
+    border: 0;
+    background-color: #FFF;
+    position: relative;
+    padding: 1em;
+}
+button.previous-btn{
+    border-radius: 50% 0 0 50%;
+    left: 0.34em;
+}
+button.next-btn {
+    border-radius: 0 50% 50% 0;
+    right: 0.34em;
+}
+.tesimonial-name, .testimonial-job {
+    display: block;
+}
+.testimonial-job{
+    color:hsl(240, 18%, 77%); 
+}
+
+@media (min-width: 1440px) {
+    
+}
